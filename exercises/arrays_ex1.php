@@ -28,7 +28,7 @@ if ( !isset($_POST['answer']) || strlen($_POST['answer']) < 1 ) {
         <p>
             Write PHP script to create an array containing exactly the
             following elements: <strong><?= $array_elements ?></strong>
-            in this very order and output the <strong><?= $n ?>'th</strong>
+            in this very order and output the <strong><?= $n ?>'th</strong> // fix the ordinal
             element inside an HTML paragraph tag.
         </p>
     </div>
